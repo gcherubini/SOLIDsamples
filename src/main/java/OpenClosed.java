@@ -24,6 +24,9 @@ class ReportWithOCP {
     }
 }
 
+// open for extension, but closed for modification";
+// [1] that is, such an entity can allow its behaviour to be extended without modifying its source code.
+
 interface Report {
     String generate();
 }
